@@ -1,0 +1,436 @@
+.jii-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #db7070;
+  overflow: hidden;
+}
+
+.jii-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  height: auto;
+}
+
+.jii-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.jii-content-bg {
+  width: 100%;
+  height: 0px;
+  position: relative;
+}
+
+.jii-content-bg::before {
+  content: '';
+  display: block;
+  width: calc(100% * 1.28);
+  height: 3000px;
+  background: #d16363;
+  position: absolute;
+  top: 0px;
+  left: -75px;
+  -webkit-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+  -webkit-transform: skewX(7deg) rotate(-33deg);
+          transform: skewX(7deg) rotate(-33deg);
+}
+
+.jii-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 260px;
+  z-index: 1;
+}
+
+.jii-lunch {
+  width: 100%;
+  height: 70%;
+  background: #222;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.jii-lunch-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  border-radius: 5px;
+}
+
+.jii-left-box {
+  width: 60%;
+  height: 100%;
+  padding: 12px;
+}
+
+.jii-main-food {
+  width: 100%;
+  height: 100%;
+  background: #ecd6c1;
+  border-radius: 5px;
+  position: relative;
+}
+
+.jii-main-food::before {
+  content: '';
+  display: block;
+  width: 92%;
+  height: 100%;
+  background: #fce5d0;
+  border-radius: 5px;
+  margin-left: 8%;
+}
+
+.jii-leaf {
+  width: 15px;
+  height: 15px;
+  border-radius: 50% 0%;
+  background: #ecd6c1;
+  position: absolute;
+}
+
+.lf1 {
+  top: 10%;
+  right: 10%;
+}
+
+.lf2 {
+  top: 30%;
+  right: 25%;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+.lf3 {
+  top: 30%;
+  right: 45%;
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
+.lf4 {
+  top: 70%;
+  right: 55%;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.lf5 {
+  top: 65%;
+  right: 70%;
+}
+
+.jii-hot-dog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 45%;
+  height: 16px;
+  background: #801212;
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-transform-origin: 0px 0px;
+          transform-origin: 0px 0px;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.jii-hot-dog::before {
+  content: '';
+  display: block;
+  width: 90%;
+  height: 10px;
+  background: #9b1515;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.hd1 {
+  top: 50px;
+  left: 5px;
+}
+
+.hd2 {
+  top: 60px;
+  left: 25px;
+}
+
+.jii-egg {
+  width: 65px;
+  height: 65px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transform: skewX(-5deg) rotateX(20deg);
+          transform: skewX(-5deg) rotateX(20deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.jii-egg::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #da9517;
+  border-radius: 50%;
+  -webkit-transform: skewX(5deg) rotateX(0deg);
+          transform: skewX(5deg) rotateX(0deg);
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+
+.jii-egg::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: #f5ad27;
+  border-radius: 50%;
+  -webkit-transform: skewX(5deg) rotateX(0deg);
+          transform: skewX(5deg) rotateX(0deg);
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+.jii-right-box {
+  width: 40%;
+  height: 100%;
+  border-left: 8px solid #222;
+}
+
+.jii-rt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  border-bottom: 8px solid #222;
+}
+
+.jii-egg-cake {
+  width: 100%;
+  height: 40%;
+  background: #e99c38;
+  border-radius: 5px;
+}
+
+.jii-egg-cake::before {
+  content: '';
+  display: block;
+  width: 85%;
+  height: 100%;
+  background: #f7b34d;
+  border-radius: 5px;
+  float: right;
+}
+
+.jii-rb-box {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.jii-vagetable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 60%;
+  height: 14px;
+  background: #2aa039;
+  border-radius: 7px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.jii-vagetable::before {
+  content: '';
+  display: block;
+  width: 90%;
+  height: 6px;
+  background: #3faa4e;
+  border-radius: 3px;
+}
+
+.vg1 {
+  top: 30px;
+  left: 15;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.vg2 {
+  width: 50%;
+  bottom: 0px;
+  right: 0px;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.jii-meatball {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 20px;
+  height: 20px;
+  background: #801212;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.jii-meatball::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #9b1515;
+  border-radius: 50%;
+}
+
+.jii-chopsticks {
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+
+.jii-chopstick {
+  width: 94%;
+  height: 8px;
+  background: #222;
+  border-radius: 4px;
+  position: absolute;
+  left: 3%;
+}
+
+.cs1 {
+  top: 5px;
+}
+
+.cs1::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3000px;
+  background: #d16363;
+  position: absolute;
+  top: 8px;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: skewX(40deg);
+          transform: skewX(40deg);
+}
+
+.cs2 {
+  top: 25px;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.cs2::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3000px;
+  background: #d16363;
+  position: absolute;
+  top: 8px;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: skewX(40deg);
+          transform: skewX(40deg);
+}
+
+.jii-btn {
+  width: 70%;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.jii-text {
+  color: #fff;
+  font-size: 13px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
